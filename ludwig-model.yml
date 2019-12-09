@@ -1,0 +1,8 @@
+input_features:
+- name: extract
+  type: text
+  level: word
+  encoder: parallel_cnn
+output_features:
+- name: film
+  type: category
